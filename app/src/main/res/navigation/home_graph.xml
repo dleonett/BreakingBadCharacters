@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_graph"
+    app:startDestination="@id/charactersFragment">
+
+    <fragment
+        android:id="@+id/charactersFragment"
+        android:name="com.leonett.breakingbadcharacters.presentation.characters.list.CharactersFragment"
+        tools:layout="@layout/fragment_characters">
+
+        <action
+            android:id="@+id/actionDetail"
+            app:destination="@id/characterDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/characterDetailFragment"
+        android:name="com.leonett.breakingbadcharacters.presentation.characters.detail.CharacterDetailFragment"
+        tools:layout="@layout/fragment_character_detail">
+
+        <argument
+            android:name="character"
+            app:argType="com.leonett.breakingbadcharacters.presentation.characters.model.CharacterUi" />
+
+    </fragment>
+
+</navigation>

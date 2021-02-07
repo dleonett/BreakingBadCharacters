@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text" parent="">
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Text.TopBarTitle">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.H1">
+        <item name="android:textSize">@dimen/font_size_18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.H2">
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.H3">
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text.H1.W">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.H2.W">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.H3.W">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.B1">
+        <item name="android:textSize">@dimen/font_size_14</item>
+    </style>
+
+    <style name="Text.B2">
+        <item name="android:textSize">@dimen/font_size_12</item>
+    </style>
+
+    <style name="Text.B1.W">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.B2.W">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Text.Dialog" parent="TextAppearance.AppCompat">
+
+    </style>
+
+    <style name="Text.Dialog.Message">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Progress -->
+    <style name="Progress" parent="@style/Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:indeterminateTint">@color/black</item>
+    </style>
+</resources>

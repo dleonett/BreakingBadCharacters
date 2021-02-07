@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BreakingBadCharacters</string>
+    <string name="characters_screen_title">Characters</string>
+    <string name="character_detail_occupation_label">Occupation</string>
+    <string name="character_detail_status_label">Status</string>
+    <string name="character_detail_portrayed_label">Portrayed</string>
+</resources>
