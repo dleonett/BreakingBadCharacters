@@ -6,3 +6,4 @@ Android application that displays the list of Breaking Bad Characters using a pu
 List | Detail
 --- | ---
 <img src="screenshots/screenshot-list.png"/> | <img src="screenshots/screenshot-detail.png"/>
+<img src="screenshots/screenshot-list-dark.png"/> | <img src="screenshots/screenshot-detail-dark.png"/>
